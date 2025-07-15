@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# API-Powered Webflow Canvas
 
-## Project info
+A modern web application built using **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn-ui**, designed for building API-powered dynamic UIs with ease and flexibility.
 
-**URL**: https://lovable.dev/projects/522663bb-1604-45c3-b9e7-2aff1a1568bc
+## 🚀 Features
 
-## How can I edit this code?
+- ⚡ Fast development with Vite
+- 🎨 Beautiful UI components with Tailwind CSS and shadcn-ui
+- 🧠 Type-safe codebase with TypeScript
+- 🔌 Built to connect and render content from APIs
+- 🔁 Auto-reloading dev server for rapid iteration
 
-There are several ways of editing your application.
+## 🛠 Tech Stack
 
-**Use Lovable**
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/522663bb-1604-45c3-b9e7-2aff1a1568bc) and start prompting.
+## 📦 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repository
+git clone https://github.com/MayankJ03/api-powered-webflow-canvas.git
 
-Follow these steps:
+# Navigate to the project directory
+cd api-powered-webflow-canvas
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
+Development
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
+Build for Production
 
-**Edit a file directly in GitHub**
+npm run build
+Preview Production Build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+npm run preview
+📁 Project Structure
 
-**Use GitHub Codespaces**
+src/
+├── components/      # Reusable components
+├── pages/           # Page-level components
+├── hooks/           # Custom React hooks
+├── utils/           # Utility functions
+├── assets/          # Static assets
+└── main.tsx         # Application entry point
+📄 License
+This project is licensed under the MIT License.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+### ✅ To Do:
+1. Replace `README.md` content with the above markdown.
+2. Optionally delete or archive any Lovable-specific files or folders like:
+   - `.lovable/`
+   - `.lovable.config.ts`
+   - Any scripts referencing `lovable.dev`
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/522663bb-1604-45c3-b9e7-2aff1a1568bc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Let me know if you want me to generate a `LICENSE` file as well.
